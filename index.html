@@ -1,3 +1,87 @@
-<h1>Este es un sitio web con Github Pages</h1>
-<p>Fue creado por Emmanuel Peña<p/>
-<p><img src="https://i.imgur.com/iczG5e7.jpg"</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: #0f172a;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      font-weight: 300;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+    .project {
+      background: #fff;
+      border-radius: 1rem;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+      padding: 1.5rem;
+      transition: transform 0.2s ease;
+    }
+    .project:hover {
+      transform: translateY(-5px);
+    }
+    .project h2 {
+      margin-top: 0;
+      font-size: 1.25rem;
+    }
+    .project p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.875rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <p>Showcasing my future projects and creative work</p>
+  </header>
+
+  <main class="projects">
+    <div class="project">
+      <h2>Project One</h2>
+      <p>Short description of the project, what it does, and the tools used.</p>
+    </div>
+    <div class="project">
+      <h2>Project Two</h2>
+      <p>Another sample project with a cool description and stack overview.</p>
+    </div>
+    <div class="project">
+      <h2>Project Three</h2>
+      <p>Brief summary of the purpose and outcome of the project.</p>
+    </div>
+    <!-- Add more projects here -->
+  </main>
+
+  <footer>
+    &copy; 2025 Your Name. All rights reserved.
+  </footer>
+</body>
+</html>
